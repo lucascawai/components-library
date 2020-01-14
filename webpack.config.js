@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   module: {
     rules: [
@@ -9,6 +11,9 @@ module.exports = {
           options: {
             presets: ['@babel/preset-env', '@babel/react']
           }
+        },
+        resolveLoader: {
+          root: path.join(__dirname, 'node_modules')
         }
       }
     ]
