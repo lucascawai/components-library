@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextLink renders correctly 1`] = `
+.c0 {
+  font-family: 'CenturyGothicBold',sans serif;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  cursor: pointer;
+  color: red;
+}
+
+@media (max-width:800px) {
+  .c0 {
+    margin-top: 16px 0;
+    font-size: 12px;
+  }
+}
+
+<h5
+  className="c0"
+  color="red"
+  onClick={[Function]}
+>
+  Test
+</h5>
+`;

@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly + TextLink 1`] = `
+.c2 {
+  font-family: 'CenturyGothicBold',sans serif;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #01163E;
+}
+
+.c0 {
+  width: 256px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.c1 {
+  float: none;
+  border-radius: 32px !important;
+  background: #DE0C4B !important;
+  width: 256px;
+  height: 48px;
+}
+
+.c1 .MuiButton-label {
+  color: white;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 16px;
+  font-family: 'CenturyGothic',sans-serif;
+}
+
+.MuiButton-contained.c1:hover {
+  background-color: #a50024 !important;
+}
+
+@media (max-width:800px) {
+  .c2 {
+    margin-top: 16px 0;
+    font-size: 12px;
+  }
+}
+
+@media (max-width:800px) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+  cy="button"
+>
+  <button
+    backgroundDisabled={false}
+    className="MuiButtonBase-root MuiButton-root c1 MuiButton-contained"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[MockFunction]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Avançar
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root makeStyles-icon-1"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+        />
+      </svg>
+    </span>
+  </button>
+  <h5
+    className="c2"
+  />
+</div>
+`;
+
+exports[`Button renders correctly 1`] = `
+.c0 {
+  width: 256px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.c1 {
+  float: none;
+  border-radius: 32px !important;
+  background: #DE0C4B !important;
+  width: 256px;
+  height: 48px;
+}
+
+.c1 .MuiButton-label {
+  color: white;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 16px;
+  font-family: 'CenturyGothic',sans-serif;
+}
+
+.MuiButton-contained.c1:hover {
+  background-color: #a50024 !important;
+}
+
+@media (max-width:800px) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+  cy="button"
+>
+  <button
+    backgroundDisabled={false}
+    className="MuiButtonBase-root MuiButton-root c1 MuiButton-contained"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[MockFunction]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Avançar
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root makeStyles-icon-1"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+        />
+      </svg>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Button renders correctly Button + ArronBack 1`] = `
+.c0 {
+  width: 256px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.c1 {
+  float: none;
+  border-radius: 32px !important;
+  background: #DE0C4B !important;
+  width: 256px;
+  height: 48px;
+}
+
+.c1 .MuiButton-label {
+  color: white;
+  font-weight: bold;
+  text-transform: none;
+  font-size: 16px;
+  font-family: 'CenturyGothic',sans-serif;
+}
+
+.MuiButton-contained.c1:hover {
+  background-color: #a50024 !important;
+}
+
+@media (max-width:800px) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+  cy="button"
+>
+  <button
+    backgroundDisabled={false}
+    className="MuiButtonBase-root MuiButton-root c1 MuiButton-contained"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[MockFunction]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Avançar
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root makeStyles-icon-1"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+        />
+      </svg>
+    </span>
+  </button>
+</div>
+`;
