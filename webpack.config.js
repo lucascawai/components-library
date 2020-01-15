@@ -1,6 +1,13 @@
 const path = require('path')
 
 module.exports = {
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, './dist/lib'),
+    filename: 'index.js',
+    library: '',
+    libraryTarget: 'commonjs'
+  },
   module: {
     rules: [
       {
@@ -11,9 +18,6 @@ module.exports = {
           options: {
             presets: ['@babel/preset-env', '@babel/react']
           }
-        },
-        resolveLoader: {
-          root: path.join(__dirname, 'node_modules')
         }
       }
     ]
